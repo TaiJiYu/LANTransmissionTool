@@ -7,3 +7,5 @@
 
 异常情况：
 1.如果接受文件时突然中断，有可能是接收方开启防火墙导致，接收方可关闭防火墙，或者对该工具提供时访问网络权限，也可尝试先在"发送文件"栏下启动服务器获取网络权限后尝试接受。
+2.无法启动此程序，因为计算机中丢失 api-ms-win-core-path-l1-1-1.dll。尝试重新安装该程序以解决此问题。
+  解决方法:在此更新dll：https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
